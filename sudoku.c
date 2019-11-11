@@ -34,8 +34,6 @@ void sudoku_set(struct sudoku_ctx *ctx, unsigned int col, unsigned int row,
   unsigned int x;
   unsigned int y;
   unsigned int i;
-  unsigned int was;
-  unsigned int solved;
 
   if (col > 8 || row > 8 || val > 8) {
     return;
